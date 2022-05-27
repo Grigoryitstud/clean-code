@@ -36,7 +36,7 @@
 #new-task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .adder {
@@ -132,7 +132,7 @@ input, button{
 }
 
 .task {
-    width: 226px
+    width: 226px;
 }
 
 .delete {
@@ -161,12 +161,12 @@ input, button{
 }
 /* Edit Task */
 .task {
-    display: none
+    display: none;
 }
 
 .edit-mode .task {
     display: inline-block;
-    width:224px
+    width:224px;
 }
 
 .edit-mode .tasker {
