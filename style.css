@@ -4,16 +4,16 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-.aaa {
+.preview {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.aaa img {
+.preview img {
     width: 100%;
 }
-.aaa__more-inf {
+.preview__more-inf {
     font-family: fantasy, cursive;
 }
 
