@@ -4,46 +4,58 @@
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .preview {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
+
 .preview img {
     width: 100%;
 }
+
 .preview__more-inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
+
 .preview { text-align: center;
 }
+
 }
+
 .matrix {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
+
 #new-task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
+
 .adder {
     display: flex;
 }
+
 .list {
     margin:0;
     padding: 0px;
 }
+
 li, h3 {
     list-style:none;
 }
+
 input, button{
     outline:none;
 }
+
 .edit {
     background: none;
     border: 0px;
@@ -53,6 +65,7 @@ input, button{
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 .edit:hover {
     color: #3a3A3a;
 }
@@ -66,6 +79,7 @@ input, button{
     margin: 0;
     text-transform: uppercase;
 }
+
 .task {
     margin: 0;
     font-size: 18px;
@@ -78,19 +92,19 @@ input, button{
     font-family: Lato, sans-serif;
     color: #888;
 }
+
 .task:focus {
     color: #333;
 }
-
 /* New Task */
 .add-item {
     display: block;
     margin: 0 0 20px;
 }
+
 #new-task {
     width: 318px;
 }
-
 /* Task list */
 .paragraph {
     overflow: hidden;
@@ -101,6 +115,7 @@ input, button{
     justify-content: space-between;
     align-items: center;
 }
+
 .paragraph > * {
     vertical-align: middle;
 }
@@ -108,15 +123,18 @@ input, button{
 .checker {
     margin: 0 10px;
 }
+
 .tasker {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
+
 .task {
     width: 226px
 }
+
 .delete {
     background: none;
     border: 0px;
@@ -126,21 +144,21 @@ input, button{
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 .icon {    
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
+
 .icon:hover {
     transform: rotateZ(0);
 }
-
 /* Completed */
 #completed-tasks .tasker {
     text-decoration: line-through;
     color: #888;
 }
-
 /* Edit Task */
 .task {
     display:none
