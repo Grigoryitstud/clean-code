@@ -37,6 +37,8 @@
     width: 56%;
     display: inline-block;
     flex-grow: 1;
+    border: 1px solid #dDd;
+    border-radius: 6px;
 }
 
 .adder {
@@ -109,7 +111,7 @@ button{
     width: 318px;
 }
 /* Task list */
-.paragraph {
+.paragraph, .adder {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -119,7 +121,8 @@ button{
     align-items: center;
 }
 
-.paragraph > * {
+.paragraph > *,
+.adder > * {
     vertical-align: middle;
 }
 
