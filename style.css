@@ -41,7 +41,7 @@
     border-radius: 6px;
 }
 
-.adder {
+.add-tasks__adder {
     display: flex;
 }
 
@@ -111,7 +111,8 @@ button{
     width: 318px;
 }
 /* Task list */
-.paragraph, .adder {
+.paragraph, 
+.add-tasks__adder {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -122,11 +123,11 @@ button{
 }
 
 .paragraph > *,
-.adder > * {
+.add-tasks__adder > * {
     vertical-align: middle;
 }
 
-.checker {
+.paragraph__checker {
     margin: 0 10px;
 }
 
